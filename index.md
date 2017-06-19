@@ -1,6 +1,12 @@
 ## Welcome to github Pages
-I would be showcasing my work on this website.
+I would be showcasing my work on this website
 
-## Markdown
+```
+import cv2
+import face_module as face
 
-Here I would also write someting later.
+cap = cv2.VideoCapture()
+
+while(true):
+  _,frame = cap.read()
+```
