@@ -14,4 +14,4 @@ Depending on the type of camera and it's power requirement, the hardware changes
 
 In case you are trying to use several IP cameras at the same time you requrie an NVR (Network Video Recorder) which can record 'N' video feeds in parallel. The value 'N' varies with different companies. In this case the architecture would look like the following:
 
-![alt text](https://www.securitycameraking.com/securityinfo/wp-content/uploads/2014/07/POE-Setup.jpg)
+<div style="text-align:center"><img src ="https://www.securitycameraking.com/securityinfo/wp-content/uploads/2014/07/POE-Setup.jpg" /></div>
