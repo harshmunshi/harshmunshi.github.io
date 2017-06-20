@@ -9,6 +9,6 @@ Hi all! I am Harsh Munshi, currently working at Graymatics inc as a Research and
 print("We are going to hack everything")
 ```
 
-## Hacking Series
-1. Hacking the [Convolutional Neural Network](makenet.md)
-2. Hacking the [IP Cameras](hackipcams.md)
+## Reverse Engineering Breakdown Series
+1. Rev-EN the [Convolutional Neural Network](makenet.md)
+2. Rev-EN the [IP Cameras](hackipcams.md)
