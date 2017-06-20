@@ -1,18 +1,7 @@
-## Welcome to github Pages
-I would be showcasing my work on this website
+## Welcome to My Blog
 
-```
-import cv2
-import face_module as face
+Hi all! I am Harsh Munshi, currently working at Graymatics inc as a Research and Development Engineer. My majority of task is based on Machine Learning and Image processing which as a whole is a real red hot topic in research right now! Let's collaborate, collate and contribute.
 
-cap = cv2.VideoCapture()
+# Back to basics
 
-while(true):
-  _,frame = cap.read()
-```
-
-|First Header|Second Header|
-|------------|-------------|
-|1x11|3333|
-|`original value`|1mm1111|
-|`new value`|dd56tft|
+Like a school, everyone has to start from the basics. In this section I would recommend various links for in-depth understanding of those concepts and highlight a used case for the same.
