@@ -9,4 +9,5 @@ Hi all! I am Harsh Munshi, currently working at Graymatics inc as a Research and
 print("We are going to hack everything")
 ```
 
-Hacking the [Convolutional Neural Network]()
+## Hacking Series
+1. Hacking the [Convolutional Neural Network](https://github.com/harshmunshi/harshmunshi.github.io/blob/master/makenet.md)
