@@ -16,6 +16,8 @@ In case you are trying to use several IP cameras at the same time you requrie an
 
 <div style="text-align:center"><img src ="https://www.securitycameraking.com/securityinfo/wp-content/uploads/2014/07/POE-Setup.jpg" /></div>
 
+
+
 ## Finding the IP address of the Camera(s)
 
 ```
