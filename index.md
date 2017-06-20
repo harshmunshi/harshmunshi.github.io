@@ -17,9 +17,9 @@ If you had to make a neural network in 2000, you would have had to design the ar
 
 In this example we will make a simple classifier which can clasify multiple classes, in this case we choose two, say running and punching. Download couple of thousand images, 1000 for running and 1000 for punching. Now the most important part is to split the data according to the number of classes. Let's go stepwise:
 
-# Step 1
+# Step 1: Setup
 
-Make a directory and create a data directory under that.
+Make a directory and create a data directory under that:
 
 ```
 $ mkdir new_model && cd new_model
@@ -30,3 +30,7 @@ $ cd ..
 $ mkdir validation && cd validation
 $ mkdir running && mkdir punching
 ```
+
+# Step 2: Data Sorting
+
+Collect the appropriate images and put 800 images each under training folder and put 200 images under validation folder. This means each sub-folder under training would have 800 images and each subfolder under validation would have 200 images making a total of 800 * 2 + 200 * 2 = 2000.
