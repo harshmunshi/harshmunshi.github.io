@@ -33,4 +33,11 @@ $ mkdir running && mkdir punching
 
 # Step 2: Data Sorting
 
-Collect the appropriate images and put 800 images each under training folder and put 200 images under validation folder. This means each sub-folder under training would have 800 images and each subfolder under validation would have 200 images making a total of 800 * 2 + 200 * 2 = 2000.
+Collect the appropriate images and put 800 images each under training folder and put 200 images under validation folder. This means each sub-folder under training would have 800 images and each subfolder under validation would have 200 images making a total of 800 * 2 + 200 * 2 = 2000. The Heirarchy should look something like this:
+
+|Data Folder|Data subfolder(s)|Number of Images|
+|----|----|----|
+|training|running|800|
+||punching|800|
+|validation|running|200|
+||punching|200|
