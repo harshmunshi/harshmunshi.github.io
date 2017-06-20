@@ -160,6 +160,6 @@ Step 5: Tesing the model
 
 The challange for the readers is to use these weights, save the model as json and use that to run the model on sample image.
 
-Where can I find it all?
+## Where can I find it all?
 
 You can go to my github repository where I have shared the exact same example with different classes (cats and dogs). The repo name is [babyStepsToMachineLearning](https://github.com/harshmunshi/babyStepsToMachineLearning)
