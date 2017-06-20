@@ -10,4 +10,4 @@ print("We are going to hack everything")
 ```
 
 ## Hacking Series
-1. Hacking the [Convolutional Neural Network](https://github.com/harshmunshi/harshmunshi.github.io/blob/master/makenet.md)
+1. Hacking the [Convolutional Neural Network](harshmunshi.github.io/makenet.md)
