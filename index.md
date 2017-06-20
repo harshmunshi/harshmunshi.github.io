@@ -58,7 +58,7 @@ delete_command = "rm -rf "
 for filename in glob.glob("*.jpg"):
 
         i = cv2.imread(filename)
-        j = cv2.resize(i, (224,224))
+        j = cv2.resize(i, (150,150))
         cv2.imwrite(str(file_number) + '.jpg', j)
         cmmd = delete_command + str(filename)
         os.system(cmmd)
@@ -138,3 +138,55 @@ model.compile(loss='binary_crossentropy',
               optimizer='rmsprop',
               metrics=['accuracy'])
 ```
+
+Augmentation configuration for training, taing generator and validation generator:
+
+```
+train_datagen = ImageDataGenerator(
+    rescale=1. / 255,
+    shear_range=0.2,
+    zoom_range=0.2,
+    horizontal_flip=True)
+
+# this is the augmentation configuration we will use for testing:
+# only rescaling
+test_datagen = ImageDataGenerator(rescale=1. / 255)
+
+train_generator = train_datagen.flow_from_directory(
+    train_data_dir,
+    target_size=(img_width, img_height),
+    batch_size=batch_size,
+    class_mode='binary')
+
+validation_generator = test_datagen.flow_from_directory(
+    validation_data_dir,
+    target_size=(img_width, img_height),
+    batch_size=batch_size,
+    class_mode='binary')
+```
+
+Finally model fitting:
+
+```
+
+model.fit_generator(
+    train_generator,
+    steps_per_epoch=nb_train_samples // batch_size,
+    epochs=epochs,
+    validation_data=validation_generator,
+    validation_steps=nb_validation_samples // batch_size)
+
+```
+
+Saving the model:
+
+```
+model.save_weights('first_try.h5')
+```
+## Step 5: Tesing the model
+
+The challange for the readers is to use these weights, save the model as json and use that to run the model on sample image.
+
+## Where can I find it all?
+
+You can go to my github repository where I have shared the exact same example with different classes (cats and dogs). The repo name is [babyStepsToMachineLearning](https://github.com/harshmunshi/babyStepsToMachineLearning).
