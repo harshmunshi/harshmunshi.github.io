@@ -27,6 +27,7 @@ sudo apt-get install libxvidcore-dev libx264-dev
 sudo apt-get install libgtk-3-dev
 sudo apt-get install libatlas-base-dev gfortran
 ```
+
 2. Fetch the latest version of opencv (3.2) and unzip it
 
 ```
