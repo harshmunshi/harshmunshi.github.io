@@ -15,7 +15,7 @@ SO LETS HACK!
 
 ## Building without Virtual Environment
 
-1. Install the dependencies
+### 1. Install the dependencies
 
 ```
 sudo apt-get update
@@ -28,7 +28,7 @@ sudo apt-get install libgtk-3-dev
 sudo apt-get install libatlas-base-dev gfortran
 ```
 
-2. Fetch the latest version of opencv (3.2) and unzip it
+### 2. Fetch the latest version of opencv (3.2) and unzip it
 
 ```
 wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.2.0.zip
@@ -37,7 +37,7 @@ wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.2.
 unzip opencv_contrib.zip
 ```
 
-3. Install the python3 dependencies
+### 3. Install the python3 dependencies
 
 ```
 wget https://bootstrap.pypa.io/get-pip.py
@@ -46,14 +46,14 @@ sudo apt-get install python3.5
 pip install numpy
 ```
 
-4. Make a build subfolder inside your opencv-3.2.0 folder
+### 4. Make a build subfolder inside your opencv-3.2.0 folder
 
 ```
 cd ~/opencv-3.2.0/
 mkdir build && cd build
 ```
 
-5. Cmake using the following command
+### 5. Cmake using the following command
 
 ```
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
