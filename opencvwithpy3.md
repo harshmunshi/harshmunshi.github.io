@@ -1,4 +1,4 @@
-## Hacking Opencv 3.2 with python 3.5
+# Hacking Opencv 3.2 with python 3.5
 
 OpenCV or open computer vision is not only a great library to learn about the basic of vision in general but it is also one of the most widely used libraries at the production level. In order to get it working on your machine (Linux assumed) you need to follow a set process which I have generalised into a standard bash script.
 
@@ -13,9 +13,10 @@ However currently there is not much support for the same and almost every tutori
 
 SO LETS HACK!
 
-# Building without Virtual Environment
+## Building without Virtual Environment
 
 1. Install the dependencies
+
 ```
 sudo apt-get update
 sudo apt-get upgrade
