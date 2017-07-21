@@ -13,3 +13,7 @@ print("We are going to hack everything")
 1. Rev-EN the [Convolutional Neural Network](makenet.md)
 2. Rev-EN the [IP Cameras](hackipcams.md)
 3. Rev-EN [Opencv3.2 with Python 3.5](opencvwithpy3.md)
+
+## Coming Soon
+1. Rev-EN OnePlus 3T with Android Studio.
+2. Rev-EN Tensorflow on Android
