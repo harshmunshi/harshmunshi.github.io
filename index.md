@@ -18,7 +18,3 @@ print("We are going to hack everything")
 ## Coming Soon
 1. Rev-EN OnePlus 3T with Android Studio.
 2. Rev-EN Tensorflow on Android
-
-
-Donate via paypal:
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RGQ8NSYPA59FL)
