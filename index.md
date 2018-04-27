@@ -14,6 +14,7 @@ print("We are going to hack everything")
 2. Rev-EN the [IP Cameras](hackipcams.md)
 3. Rev-EN [Opencv3.2 with Python 3.5](opencvwithpy3.md)
 4. Rev-EN [making a bootable pen drive in ubuntu](ubuntu.md)
+5. Rev-EN [Making custom terminal commands in ubuntu](commands.md)
 
 ## Coming Soon
 1. Rev-EN OnePlus 3T with Android Studio.
