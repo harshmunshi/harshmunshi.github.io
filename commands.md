@@ -13,6 +13,7 @@ So let's say I have a Masters folder under documents and I want to make a comman
 
 ```
 #!/bin/bash 
+
 cd /home/harsh/Document/Masters
 exec bash 
 ```
