@@ -11,9 +11,11 @@ takes you to your ROS dvelve folder which is the current workspace. I was inspir
 
 So let's say I have a Masters folder under documents and I want to make a command which can directly take me there. We make the following bash file:
 
-```#!/bin/bash ```
-```cd /home/harsh/Document/Masters```
-```exec bash ```
+```
+#!/bin/bash 
+cd /home/harsh/Document/Masters
+exec bash 
+```
 
 Save this as let's say "mastercd" . Then do the following:
 
