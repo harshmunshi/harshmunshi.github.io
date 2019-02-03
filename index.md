@@ -24,7 +24,7 @@ print("We are going to hack everything")
 5. Rev-EN [Making custom terminal commands in ubuntu](commands.md)
 
 ## Privacy Policy
-Our [privacy policy] (Privacy_policy.md) describes our work.
+Our [privacy policy] (Privacy_Policy.md) describes our work.
 
 ## Coming Soon
 1. Rev-EN OnePlus 3T with Android Studio.
